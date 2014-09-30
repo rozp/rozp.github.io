@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-  background-color: #fcfcfc;
+  background-image: url('images/background.jpg');
 }
 
 h1 {
@@ -17,4 +17,14 @@ h1 {
   top: 50%;
   margin-left: -100px;
   margin-top: 20px;
+  text-shadow: 4px 4px #0ff001;
 }
+
+div.logo {
+  width: 238px;
+  height: 330px;
+  position: absolute;
+  left: 60%;
+  top: 20%;
+  margin-left: -192px;
+  margin-top: -106px;
