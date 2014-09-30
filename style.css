@@ -9,22 +9,12 @@ body {
   background-color: #fcfcfc;
 }
 
-#logo {
-  width: 384px;
-  height: 213px;
-  display: block;
-  background-image: url('logo.png');
+h1 {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 40pt;
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -192px;
-  margin-top: -106px;
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5), all and (max--moz-device-pixel-ratio: 1.5) {
-  #logo {
-    -webkit-background-size: 384px 213px;
-    background-size: 384px 213px;
-    background-image: url('logo@2x.png');
-  }
+  margin-left: -100px;
+  margin-top: 20px;
 }
